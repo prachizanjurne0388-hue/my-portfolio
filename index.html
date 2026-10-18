@@ -1,1592 +1,772 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Prachi Zanjurne | Python & Web Developer Portfolio</title>
-
-    <meta name="description"
-
-        content="Portfolio of Prachi Zanjurne, BCA Graduate and aspiring Python & Web Developer.">
+    <meta name="description" content="Portfolio of Prachi Zanjurne, BCA Graduate and aspiring Python & Web Developer.">
 
     <link rel="stylesheet" href="style.css">
-
-    <!-- Font Awesome -->
-
-    <link rel="stylesheet"
-
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-<!-- ================= NAVBAR ================= -->
-
+<!-- NAVBAR -->
 <header class="navbar">
-
     <div class="logo">
-
         <span>P</span>Z
-
     </div>
 
     <nav class="nav-links" id="nav-links">
-
         <a href="#home" class="active-link">Home</a>
-
         <a href="#about">About</a>
-
         <a href="#skills">Skills</a>
-
         <a href="#education">Education</a>
-
         <a href="#projects">Projects</a>
-
         <a href="#certificates">Certificates</a>
-
         <a href="#contact">Contact</a>
-
     </nav>
 
     <div class="nav-actions">
-
-        <button id="theme-toggle"
-
-                class="theme-btn"
-
-                title="Change Theme">
-
+        <button id="theme-toggle" class="theme-btn" title="Change Theme">
             <i class="fas fa-moon"></i>
-
         </button>
 
-        <button class="menu-btn"
-
-                id="menu-btn">
-
+        <button class="menu-btn" id="menu-btn" aria-label="Open navigation menu">
             <i class="fas fa-bars"></i>
-
         </button>
-
     </div>
-
 </header>
 
-<!-- ================= HOME ================= -->
-
+<!-- HOME -->
 <section id="home" class="hero">
-
     <div class="hero-content">
+        <p class="welcome">Hello, I'm</p>
 
-        <p class="welcome">
+        <h1>Prachi <span>Zanjurne</span></h1>
 
-            Hello, I'm
-
-        </p>
-
-        <h1>
-
-            Prachi <span>Zanjurne</span>
-
-        </h1>
-
-        <h2>
-
-            <span id="typing-text"></span>
-
-        </h2>
+        <h2><span id="typing-text"></span></h2>
 
         <p class="hero-description">
-
             BCA Graduate with a strong foundation in Python, Web Development,
-
             MySQL and problem-solving. Passionate about building useful,
-
             user-friendly and innovative applications.
-
         </p>
 
         <div class="availability">
-
             <span class="status-dot"></span>
-
             Available for Opportunities
-
         </div>
 
         <div class="hero-buttons">
-
-                        <a href="Resume.pdf"
-
-               download
-
-               class="btn secondary-btn">
-
+            <a href="Resume.pdf" download class="btn secondary-btn">
                 <i class="fas fa-download"></i>
-
                 Download Resume
-
             </a>
 
-            <a href="#contact"
-
-               class="btn outline-btn">
-
+            <a href="#contact" class="btn outline-btn">
                 <i class="fas fa-envelope"></i>
-
                 Contact Me
-
             </a>
-
         </div>
 
         <div class="social-icons">
-
-            <a href="mailto:prachizanjurne0388@gmail.com"
-
-               title="Email">
-
+            <a href="mailto:prachizanjurne0388@gmail.com" title="Email">
                 <i class="fas fa-envelope"></i>
-
             </a>
 
             <a href="https://www.naukri.com/mnjuser/profile"
-
-               target="_blank"
-
-               title="Naukri Profile">
-
+               target="_blank" rel="noopener noreferrer" title="Naukri Profile">
                 <i class="fas fa-briefcase"></i>
-
             </a>
 
-            <a href="tel:+918530948605"
-
-               title="Call">
-
+            <a href="tel:+918530948605" title="Call">
                 <i class="fas fa-phone"></i>
-
             </a>
-
         </div>
-
     </div>
 
     <div class="hero-image">
-
         <div class="profile-glow">
-
             <div class="profile-card">
-
                 <img src="profile.jpg"
-
                      alt="Prachi Zanjurne"
-
                      onerror="this.style.display='none'; this.parentElement.classList.add('no-photo');">
 
-                <div class="photo-placeholder">
-
-                    PZ
-
-                </div>
-
+                <div class="photo-placeholder">PZ</div>
             </div>
-
         </div>
 
         <div class="floating-card card-one">
-
             <i class="fab fa-python"></i>
-
             Python
-
         </div>
 
         <div class="floating-card card-two">
-
             <i class="fas fa-code"></i>
-
             Web Development
-
         </div>
-
     </div>
-
 </section>
 
-<!-- ================= ABOUT ================= -->
-
+<!-- ABOUT -->
 <section id="about" class="section">
-
     <div class="section-title">
-
         <p>GET TO KNOW ME</p>
-
-        <h2>
-
-            About <span>Me</span>
-
-        </h2>
-
+        <h2>About <span>Me</span></h2>
     </div>
 
     <div class="about-container">
-
         <div class="about-text">
-
-            <h3>
-
-                BCA Graduate & Aspiring Developer
-
-            </h3>
+            <h3>BCA Graduate & Aspiring Developer</h3>
 
             <p>
-
                 I am a motivated and detail-oriented BCA graduate from
-
                 Shivaji University, Satara, with a strong interest in
-
                 programming and web development.
-
             </p>
 
             <p>
-
                 I have hands-on experience working with Python, HTML, CSS,
-
                 JavaScript, MySQL and OpenCV through academic projects.
-
                 I enjoy learning new technologies and creating practical
-
                 applications.
-
             </p>
 
             <p>
-
                 I am currently looking for an entry-level opportunity as a
-
                 Python Developer or Web Developer where I can apply my
-
                 technical skills and continue growing professionally.
-
             </p>
 
             <div class="about-info">
-
                 <div>
-
                     <strong>Name</strong>
-
                     <span>Prachi Zanjurne</span>
-
                 </div>
 
                 <div>
-
                     <strong>Degree</strong>
-
                     <span>BCA</span>
-
                 </div>
 
                 <div>
-
                     <strong>University</strong>
-
                     <span>Shivaji University</span>
-
                 </div>
 
                 <div>
-
                     <strong>Percentage</strong>
-
                     <span>76%</span>
-
                 </div>
 
                 <div>
-
                     <strong>Location</strong>
-
                     <span>Satara, Maharashtra</span>
-
                 </div>
 
                 <div>
-
                     <strong>Looking For</strong>
-
                     <span>Python / Web Developer</span>
-
                 </div>
-
             </div>
-
         </div>
 
         <div class="about-stats">
-
             <div class="stat-card">
-
                 <i class="fas fa-graduation-cap"></i>
-
                 <h3>76%</h3>
-
                 <p>BCA</p>
-
             </div>
 
             <div class="stat-card">
-
                 <i class="fas fa-laptop-code"></i>
-
-                <h3>2+</h3>
-
+                <h3>4</h3>
                 <p>Projects</p>
-
             </div>
 
             <div class="stat-card">
-
                 <i class="fas fa-code"></i>
-
                 <h3>8+</h3>
-
                 <p>Technical Skills</p>
-
             </div>
 
             <div class="stat-card">
-
                 <i class="fas fa-language"></i>
-
                 <h3>3</h3>
-
                 <p>Languages</p>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 
-<!-- ================= SKILLS ================= -->
-
+<!-- SKILLS -->
 <section id="skills" class="section">
-
     <div class="section-title">
-
         <p>MY EXPERTISE</p>
-
-        <h2>
-
-            Technical <span>Skills</span>
-
-        </h2>
-
+        <h2>Technical <span>Skills</span></h2>
     </div>
 
     <div class="skills-grid">
-
         <div class="skill-card">
-
             <div class="skill-heading">
-
                 <i class="fab fa-python"></i>
-
                 <h3>Python</h3>
-
                 <span>85%</span>
-
             </div>
-
             <div class="skill-bar">
-
-                <div class="skill-progress"
-
-                     data-width="85%">
-
-                </div>
-
+                <div class="skill-progress" data-width="85%"></div>
             </div>
-
         </div>
 
         <div class="skill-card">
-
             <div class="skill-heading">
-
                 <i class="fab fa-html5"></i>
-
                 <h3>HTML & CSS</h3>
-
                 <span>95%</span>
-
             </div>
-
             <div class="skill-bar">
-
-                <div class="skill-progress"
-
-                     data-width="90%">
-
-                </div>
-
+                <div class="skill-progress" data-width="90%"></div>
             </div>
-
         </div>
 
         <div class="skill-card">
-
             <div class="skill-heading">
-
                 <i class="fab fa-js"></i>
-
                 <h3>JavaScript</h3>
-
                 <span>75%</span>
-
             </div>
-
             <div class="skill-bar">
-
-                <div class="skill-progress"
-
-                     data-width="75%">
-
-                </div>
-
+                <div class="skill-progress" data-width="75%"></div>
             </div>
-
         </div>
 
         <div class="skill-card">
-
             <div class="skill-heading">
-
                 <i class="fas fa-database"></i>
-
                 <h3>MySQL</h3>
-
                 <span>80%</span>
-
             </div>
-
             <div class="skill-bar">
-
-                <div class="skill-progress"
-
-                     data-width="80%">
-
-                </div>
-
+                <div class="skill-progress" data-width="80%"></div>
             </div>
-
         </div>
 
         <div class="skill-card">
-
             <div class="skill-heading">
-
                 <i class="fas fa-camera"></i>
-
                 <h3>OpenCV</h3>
-
                 <span>80%</span>
-
             </div>
-
             <div class="skill-bar">
-
-                <div class="skill-progress"
-
-                     data-width="70%">
-
-                </div>
-
+                <div class="skill-progress" data-width="70%"></div>
             </div>
-
         </div>
 
         <div class="skill-card">
-
             <div class="skill-heading">
-
                 <i class="fas fa-file-excel"></i>
-
                 <h3>Microsoft Excel</h3>
-
                 <span>80%</span>
-
             </div>
-
             <div class="skill-bar">
-
-                <div class="skill-progress"
-
-                     data-width="80%">
-
-                </div>
-
+                <div class="skill-progress" data-width="80%"></div>
             </div>
-
         </div>
 
         <div class="skill-card">
-
             <div class="skill-heading">
-
                 <i class="fas fa-laptop-code"></i>
-
                 <h3>Web Design</h3>
-
                 <span>90%</span>
-
             </div>
-
             <div class="skill-bar">
-
-                <div class="skill-progress"
-
-                     data-width="85%">
-
-                </div>
-
+                <div class="skill-progress" data-width="85%"></div>
             </div>
-
         </div>
 
         <div class="skill-card">
-
             <div class="skill-heading">
-
                 <i class="fas fa-lightbulb"></i>
-
                 <h3>Problem Solving</h3>
-
                 <span>95%</span>
-
             </div>
-
             <div class="skill-bar">
-
-                <div class="skill-progress"
-
-                     data-width="85%">
-
-                </div>
-
+                <div class="skill-progress" data-width="85%"></div>
             </div>
-
         </div>
-
     </div>
 
     <div class="soft-skills">
-
-        <h3>
-
-            Professional Strengths
-
-        </h3>
+        <h3>Professional Strengths</h3>
 
         <div class="soft-skill-list">
-
-            <span>
-
-                <i class="fas fa-comments"></i>
-
-                Communication
-
-            </span>
-
-            <span>
-
-                <i class="fas fa-users"></i>
-
-                Teamwork
-
-            </span>
-
-            <span>
-
-                <i class="fas fa-puzzle-piece"></i>
-
-                Problem Solving
-
-            </span>
-
-            <span>
-
-                <i class="fas fa-user-tie"></i>
-
-                Leadership
-
-            </span>
-
-            <span>
-
-                <i class="fas fa-clock"></i>
-
-                Time Management
-
-            </span>
-
-            <span>
-
-                <i class="fas fa-bolt"></i>
-
-                Quick Learner
-
-            </span>
-
+            <span><i class="fas fa-comments"></i> Communication</span>
+            <span><i class="fas fa-users"></i> Teamwork</span>
+            <span><i class="fas fa-puzzle-piece"></i> Problem Solving</span>
+            <span><i class="fas fa-user-tie"></i> Leadership</span>
+            <span><i class="fas fa-clock"></i> Time Management</span>
+            <span><i class="fas fa-bolt"></i> Quick Learner</span>
         </div>
-
     </div>
-
 </section>
 
-<!-- ================= EDUCATION ================= -->
-
+<!-- EDUCATION -->
 <section id="education" class="section">
-
     <div class="section-title">
-
         <p>MY QUALIFICATION</p>
-
-        <h2>
-
-            Education
-
-        </h2>
-
+        <h2>Education</h2>
     </div>
 
     <div class="timeline">
-
-        <!-- BCA -->
-
         <div class="timeline-item">
-
             <div class="timeline-icon">
-
                 <i class="fas fa-graduation-cap"></i>
-
             </div>
 
             <div class="timeline-content">
-
-                <span class="timeline-date">
-
-                    June 2023 – May 2026
-
-                </span>
-
-                <h3>
-
-                    Bachelor of Computer Applications
-
-                </h3>
-
-                <h4>
-
-                    Shivaji University, Satara, Maharashtra
-
-                </h4>
+                <span class="timeline-date">June 2023 – May 2026</span>
+                <h3>Bachelor of Computer Applications</h3>
+                <h4>Shivaji University, Satara, Maharashtra</h4>
 
                 <p>
-
                     Full-time BCA program with focus on computer applications,
-
                     programming, database management and web technologies.
-
                 </p>
 
-                <div class="percentage">
-
-                    76%
-
-                </div>
-
+                <div class="percentage">76%</div>
             </div>
-
         </div>
 
-        <!-- HSC -->
-
         <div class="timeline-item">
-
             <div class="timeline-icon">
-
                 <i class="fas fa-school"></i>
-
             </div>
 
             <div class="timeline-content">
-
-                <span class="timeline-date">
-
-                    2023
-
-                </span>
-
-                <h3>
-
-                    Higher Secondary Certificate (HSC)
-
-                </h3>
-
-                <h4>
-
-                    Science Stream
-
-                </h4>
+                <span class="timeline-date">2023</span>
+                <h3>Higher Secondary Certificate (HSC)</h3>
+                <h4>Science Stream</h4>
 
                 <p>
-
                     Completed Higher Secondary education in the Science
-
                     stream under the Maharashtra State Board.
-
                 </p>
 
-                <div class="percentage">
-
-                    48.83%
-
-                </div>
-
+                <div class="percentage">48.83%</div>
             </div>
-
         </div>
-
-        <!-- SSC -->
 
         <div class="timeline-item">
-
             <div class="timeline-icon">
-
                 <i class="fas fa-book"></i>
-
             </div>
 
             <div class="timeline-content">
-
-                <span class="timeline-date">
-
-                    2021
-
-                </span>
-
-                <h3>
-
-                    Secondary School Certificate (SSC)
-
-                </h3>
-
-                <h4>
-
-                    Maharashtra State Board
-
-                </h4>
+                <span class="timeline-date">2021</span>
+                <h3>Secondary School Certificate (SSC)</h3>
+                <h4>Maharashtra State Board</h4>
 
                 <p>
-
                     Completed Secondary School Certificate education under
-
                     the Maharashtra State Board.
-
                 </p>
 
-                <div class="percentage">
-
-                    82.80%
-
-                </div>
-
+                <div class="percentage">82.80%</div>
             </div>
-
         </div>
-
     </div>
-
 </section>
 
-<!-- ================= PROJECTS ================= -->
-
+<!-- PROJECTS -->
 <section id="projects" class="section">
-
     <div class="section-title">
-
         <p>MY WORK</p>
-
-        <h2>
-
-            Featured <span>Projects</span>
-
-        </h2>
-
+        <h2>Featured <span>Projects</span></h2>
     </div>
 
     <div class="projects-grid">
 
-        <!-- ================= PROJECT 1 ================= -->
-
+        <!-- PROJECT 1 -->
         <div class="project-card">
-
             <div class="project-icon">
-
                 <i class="fas fa-user-circle"></i>
-
             </div>
 
             <div class="project-content">
-
-                <span class="project-number">
-
-                    PROJECT 01
-
-                </span>
-
-                <h3>
-
-                    Personal Portfolio Website
-
-                </h3>
+                <span class="project-number">PROJECT 01</span>
+                <h3>Personal Portfolio Website</h3>
 
                 <p>
-
                     A professional and responsive personal portfolio website
-
                     designed to showcase my education, technical skills,
-
                     projects, certifications and professional profile.
-
                 </p>
 
                 <div class="tech-tags">
-
                     <span>HTML</span>
-
                     <span>CSS</span>
-
                     <span>JavaScript</span>
-
                     <span>Responsive Design</span>
-
                 </div>
 
                 <a href="https://my-portfolio-iyw7.onrender.com/"
-
                    target="_blank"
-
                    rel="noopener noreferrer"
-
                    class="project-btn">
-
                     Open Project
-
                     <i class="fas fa-external-link-alt"></i>
-
                 </a>
-
             </div>
-
         </div>
 
-        <!-- ================= PROJECT 2 ================= -->
-
+        <!-- PROJECT 2 -->
         <div class="project-card">
-
             <div class="project-icon">
-
                 <i class="fas fa-chart-line"></i>
-
             </div>
 
             <div class="project-content">
-
-                <span class="project-number">
-
-                    PROJECT 02
-
-                </span>
-
-                <h3>
-
-                    Sales Data Analysis Dashboard
-
-                </h3>
+                <span class="project-number">PROJECT 02</span>
+                <h3>Sales Data Analysis Dashboard</h3>
 
                 <p>
-
                     An interactive sales data analysis dashboard developed
-
                     to analyze sales performance, products, categories and
-
                     regions using CSV data and Python.
-
                 </p>
 
                 <div class="tech-tags">
-
                     <span>Python</span>
-
                     <span>Pandas</span>
-
                     <span>Plotly</span>
-
                     <span>Streamlit</span>
-
                     <span>CSV</span>
-
                 </div>
 
                 <a href="https://sales-analysis-dashboard-z8sg.onrender.com/"
-
                    target="_blank"
-
                    rel="noopener noreferrer"
-
                    class="project-btn">
-
                     Open Dashboard
-
                     <i class="fas fa-external-link-alt"></i>
-
                 </a>
+            </div>
+        </div>
 
+        <!-- PROJECT 3 -->
+        <div class="project-card">
+            <div class="project-icon">
+                <i class="fas fa-universal-access"></i>
             </div>
 
+            <div class="project-content">
+                <span class="project-number">PROJECT 03</span>
+                <h3>AccessiCheck – Website Accessibility Auditor</h3>
+
+                <p>
+                    An automated website accessibility auditing tool that
+                    scans websites, identifies accessibility issues,
+                    calculates an accessibility score, and generates reports.
+                </p>
+
+                <div class="tech-tags">
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>Playwright</span>
+                    <span>axe-core</span>
+                    <span>MySQL</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+
+                <a href="https://accessicheck-zg7m.onrender.com/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn">
+                    Open Project
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
         </div>
 
-    
+        <!-- PROJECT 4: MOODIFY -->
+        <div class="project-card">
+            <div class="project-icon">
+                <i class="fas fa-music"></i>
+            </div>
 
-<!-- PROJECT 3 -->
+            <div class="project-content">
+                <span class="project-number">PROJECT 04</span>
+                <h3>Moodify – Emotion-Based Music Player</h3>
 
-<div class="project-card">
+                <p>
+                    An AI-powered music player that analyzes facial expressions
+                    to recognize emotions and recommends music according to
+                    the detected mood. Includes camera-based emotion detection
+                    and an interactive music player.
+                </p>
 
-    <div class="project-icon">
+                <div class="tech-tags">
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>DeepFace</span>
+                    <span>NumPy</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
 
-        <i class="fas fa-universal-access"></i>
-
-    </div>
-
-    <div class="project-content">
-
-        <span class="project-number">PROJECT 03</span>
-
-        <h3>AccessiCheck – Website Accessibility Auditor</h3>
-
-        <p>
-
-            An automated website accessibility auditing tool that scans
-
-            websites, identifies accessibility issues, calculates an
-
-            accessibility score, and generates scan reports.
-
-        </p>
-
-        <div class="tech-tags">
-
-            <span>Python</span>
-
-            <span>Flask</span>
-
-            <span>Playwright</span>
-
-            <span>axe-core</span>
-
-            <span>MySQL</span>
-
-            <span>HTML</span>
-
-            <span>CSS</span>
-
+                <a href="https://moodify-emotion-music-player.onrender.com/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn">
+                    Open Moodify
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
         </div>
 
-        <a href="https://accessicheck-zg7m.onrender.com/"
-
-           target="_blank"
-
-           rel="noopener noreferrer"
-
-           class="project-btn">
-
-            Open Project
-
-            <i class="fas fa-external-link-alt"></i>
-
-        </a>
-
     </div>
-
-</div>
-
-    </div>
-
 </section>
 
-<!-- ================= PROJECT MODAL ================= -->
-
-<div class="modal"
-
-     id="project-modal">
-
+<!-- PROJECT MODAL -->
+<div class="modal" id="project-modal">
     <div class="modal-content">
-
-        <button class="close-modal"
-
-                onclick="closeProject()">
-
+        <button class="close-modal" onclick="closeProject()" aria-label="Close project details">
             <i class="fas fa-times"></i>
-
         </button>
 
-        <div id="modal-icon"
-
-             class="modal-icon">
-
-        </div>
-
+        <div id="modal-icon" class="modal-icon"></div>
         <h2 id="modal-title"></h2>
-
         <p id="modal-description"></p>
 
-        <h3>
+        <h3>Technologies</h3>
+        <div id="modal-tech" class="tech-tags"></div>
 
-            Technologies
-
-        </h3>
-
-        <div id="modal-tech"
-
-             class="tech-tags">
-
-        </div>
-
-        <h3>
-
-            Key Features
-
-        </h3>
-
+        <h3>Key Features</h3>
         <ul id="modal-features"></ul>
-
     </div>
-
 </div>
 
-<!-- ================= CERTIFICATES ================= -->
-
-<section id="certificates"
-
-         class="section">
-
+<!-- CERTIFICATES -->
+<section id="certificates" class="section">
     <div class="section-title">
-
-        <p>
-
-            LEARNING & DEVELOPMENT
-
-        </p>
-
-        <h2>
-
-            Certification & <span>Training</span>
-
-        </h2>
-
+        <p>LEARNING & DEVELOPMENT</p>
+        <h2>Certification & <span>Training</span></h2>
     </div>
 
     <div class="certificate-container">
-
-        <!-- EMPLOYABILITY -->
-
         <div class="certificate-card">
-
             <div class="certificate-icon">
-
                 <i class="fas fa-certificate"></i>
-
             </div>
 
             <div class="certificate-content">
-
-                <span>
-
-                    Completed: January 2026
-
-                </span>
-
-                <h3>
-
-                    Employability Skills Development Program
-
-                </h3>
-
-                <h4>
-
-                    Mahindra Pride Classroom & Naandi Foundation
-
-                </h4>
+                <span>Completed: January 2026</span>
+                <h3>Employability Skills Development Program</h3>
+                <h4>Mahindra Pride Classroom & Naandi Foundation</h4>
 
                 <p>
-
                     Training covering communication, spoken English,
-
                     personality development, workplace ethics, teamwork,
-
                     problem-solving, time management, interview preparation,
-
                     resume writing, job readiness, presentation and career
-
                     development.
-
                 </p>
-
             </div>
-
         </div>
 
-        <!-- PYTHON COURSE -->
-
         <div class="certificate-card">
-
             <div class="certificate-icon">
-
                 <i class="fab fa-python"></i>
-
             </div>
 
             <div class="certificate-content">
-
-                <span>
-
-                    In Progress
-
-                </span>
-
-                <h3>
-
-                    Python Course
-
-                </h3>
-
-                <h4>
-
-                    Python Programming
-
-                </h4>
+                <span>In Progress</span>
+                <h3>Python Course</h3>
+                <h4>Python Programming</h4>
 
                 <p>
-
                     Currently learning Python programming with focus on
-
                     programming fundamentals, object-oriented programming,
-
                     validation, problem-solving and application development.
-
                 </p>
 
-                <span class="in-progress">
-
-                    In Progress
-
-                </span>
-
+                <span class="in-progress">In Progress</span>
             </div>
-
         </div>
-
-        <!-- EXCEL COURSE -->
 
         <div class="certificate-card">
-
             <div class="certificate-icon">
-
                 <i class="fas fa-file-excel"></i>
-
             </div>
 
             <div class="certificate-content">
-
-                <span>
-
-                    In Progress
-
-                </span>
-
-                <h3>
-
-                    Microsoft Excel Course
-
-                </h3>
-
-                <h4>
-
-                    Microsoft Excel
-
-                </h4>
+                <span>In Progress</span>
+                <h3>Microsoft Excel Course</h3>
+                <h4>Microsoft Excel</h4>
 
                 <p>
-
                     Currently learning Microsoft Excel with focus on
-
                     spreadsheets, formulas, data handling and practical
-
                     office productivity skills.
-
                 </p>
 
-                <span class="in-progress">
-
-                    In Progress
-
-                </span>
-
+                <span class="in-progress">In Progress</span>
             </div>
-
         </div>
-
     </div>
-
-    <!-- LANGUAGES -->
 
     <div class="languages">
-
-        <h3>
-
-            Languages
-
-        </h3>
+        <h3>Languages</h3>
 
         <div class="language-list">
-
-            <span>
-
-                <i class="fas fa-language"></i>
-
-                Marathi
-
-            </span>
-
-            <span>
-
-                <i class="fas fa-language"></i>
-
-                Hindi
-
-            </span>
-
-            <span>
-
-                <i class="fas fa-language"></i>
-
-                English
-
-            </span>
-
+            <span><i class="fas fa-language"></i> Marathi</span>
+            <span><i class="fas fa-language"></i> Hindi</span>
+            <span><i class="fas fa-language"></i> English</span>
         </div>
-
     </div>
-
 </section>
 
-<!-- ================= CONTACT ================= -->
-
-<section id="contact"
-
-         class="section">
-
+<!-- CONTACT -->
+<section id="contact" class="section">
     <div class="section-title">
-
-        <p>
-
-            LET'S CONNECT
-
-        </p>
-
-        <h2>
-
-            Contact <span>Me</span>
-
-        </h2>
-
+        <p>LET'S CONNECT</p>
+        <h2>Contact <span>Me</span></h2>
     </div>
 
     <div class="contact-container">
-
         <div class="contact-info">
-
-            <h3>
-
-                Let's work together
-
-            </h3>
+            <h3>Let's work together</h3>
 
             <p>
-
                 I am open to entry-level opportunities in Python Development,
-
                 Web Development and related IT roles.
-
             </p>
 
             <div class="contact-item">
-
                 <div class="contact-icon">
-
                     <i class="fas fa-envelope"></i>
-
                 </div>
-
                 <div>
-
                     <span>Email</span>
-
                     <a href="mailto:prachizanjurne0388@gmail.com">
-
                         prachizanjurne0388@gmail.com
-
                     </a>
-
                 </div>
-
             </div>
 
             <div class="contact-item">
-
                 <div class="contact-icon">
-
                     <i class="fas fa-phone"></i>
-
                 </div>
-
                 <div>
-
                     <span>Phone</span>
-
-                    <a href="tel:+918530948605">
-
-                        +91 8530948605
-
-                    </a>
-
+                    <a href="tel:+918530948605">+91 8530948605</a>
                 </div>
-
             </div>
 
             <div class="contact-item">
-
                 <div class="contact-icon">
-
                     <i class="fas fa-location-dot"></i>
-
                 </div>
-
                 <div>
-
                     <span>Location</span>
-
-                    <p>
-
-                        Satara, Maharashtra 415010
-
-                    </p>
-
+                    <p>Satara, Maharashtra 415010</p>
                 </div>
-
             </div>
 
             <div class="contact-item">
-
                 <div class="contact-icon">
-
                     <i class="fas fa-briefcase"></i>
-
                 </div>
-
                 <div>
-
                     <span>Professional Profile</span>
-
                     <a href="https://www.naukri.com/mnjuser/profile"
-
                        target="_blank"
-
                        rel="noopener noreferrer">
-
                         Naukri Profile
-
                     </a>
-
                 </div>
-
             </div>
-
         </div>
 
-        <form class="contact-form"
-
-              onsubmit="sendMessage(event)">
-
+        <form class="contact-form" onsubmit="sendMessage(event)">
             <div class="input-group">
-
-                <input type="text"
-
-                       id="name"
-
-                       placeholder="Your Name"
-
-                       required>
-
-                <input type="email"
-
-                       id="email"
-
-                       placeholder="Your Email"
-
-                       required>
-
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
             </div>
 
-            <input type="text"
-
-                   id="subject"
-
-                   placeholder="Subject"
-
-                   required>
+            <input type="text" id="subject" placeholder="Subject" required>
 
             <textarea id="message"
-
                       rows="7"
-
                       placeholder="Your Message"
-
                       required></textarea>
 
-            <button type="submit"
-
-                    class="btn primary-btn send-btn">
-
+            <button type="submit" class="btn primary-btn send-btn">
                 <i class="fas fa-paper-plane"></i>
-
                 Send Message
-
             </button>
-
         </form>
-
     </div>
-
 </section>
 
-<!-- ================= FOOTER ================= -->
-
+<!-- FOOTER -->
 <footer>
+    <div class="footer-logo">PZ</div>
 
-    <div class="footer-logo">
-
-        PZ
-
-    </div>
-
-    <p>
-
-        Prachi Zanjurne
-
-    </p>
-
-    <span>
-
-        BCA Graduate | Python & Web Developer
-
-    </span>
+    <p>Prachi Zanjurne</p>
+    <span>BCA Graduate | Python & Web Developer</span>
 
     <div class="footer-social">
-
-        <a href="mailto:prachizanjurne0388@gmail.com">
-
+        <a href="mailto:prachizanjurne0388@gmail.com" aria-label="Email">
             <i class="fas fa-envelope"></i>
-
         </a>
 
         <a href="https://www.naukri.com/mnjuser/profile"
-
            target="_blank"
-
-           rel="noopener noreferrer">
-
+           rel="noopener noreferrer"
+           aria-label="Naukri Profile">
             <i class="fas fa-briefcase"></i>
-
         </a>
 
-        <a href="tel:+918530948605">
-
+        <a href="tel:+918530948605" aria-label="Call me">
             <i class="fas fa-phone"></i>
-
         </a>
 
-    </div><div class="footer-social">
-    <a href="YOUR_GITHUB_URL"
-       target="_blank"
-       rel="noopener noreferrer"
-       aria-label="Visit my GitHub profile">
-        <i class="fab fa-github" aria-hidden="true"></i>
-    </a>
+        <a href="YOUR_GITHUB_URL"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Visit my GitHub profile">
+            <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
 
-    <a href="YOUR_LINKEDIN_URL"
-       target="_blank"
-       rel="noopener noreferrer"
-       aria-label="Visit my LinkedIn profile">
-        <i class="fab fa-linkedin" aria-hidden="true"></i>
-    </a>
-
-    <a href="tel:+918530948605"
-       aria-label="Call me">
-        <i class="fas fa-phone" aria-hidden="true"></i>
-    </a>
-</div>
+        <a href="YOUR_LINKEDIN_URL"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Visit my LinkedIn profile">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+    </div>
 
     <div class="footer-line"></div>
 
     <p class="copyright">
-
         © <span id="current-year"></span>
-
-        Prachi Zanjurne.
-
-        All Rights Reserved.
-
+        Prachi Zanjurne. All Rights Reserved.
     </p>
-
 </footer>
 
-<!-- ================= BACK TO TOP ================= -->
-
-<button id="back-to-top"
-
-        title="Back to Top">
-
+<!-- BACK TO TOP -->
+<button id="back-to-top" title="Back to Top" aria-label="Back to top">
     <i class="fas fa-arrow-up"></i>
-
 </button>
 
 <script src="script.js"></script>
 
 </body>
-
 </html>
